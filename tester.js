@@ -1,0 +1,1 @@
+document.write("<h1>You have JavaScript turned on!</h1>");

@@ -3,12 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { StrictMode } from 'react'
 import Projects from './Projects'
+import About from './About'
 
 function App() {
   
 
   return (
-    <StrictMode>
+    <>
     <div id="home" className='flex flex-col justify-center gap-5 h-screen px-4 dark:bg-gray-600'>
       <h1 className="text-5xl  flex justify-center font-st spac-x-0.5 tracking-widest font-extralight">High's Website</h1>
       <p className='justify-center flex font-nts text-[20px]'>yo wassup gng</p>
@@ -30,7 +31,11 @@ function App() {
       </div>
       <hr />
       <Projects />
-    </StrictMode>
+      < hr />
+      <About />
+     
+   
+    </>
   )
 }
 
